@@ -1,0 +1,22 @@
+{
+  "name": "Compose Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "postCreateCommand": "docker-compose up -d",
+  "service": "backend",
+  "forwardPorts": [8080],
+  "workspaceFolder": "/workspace",
+  "remoteUser": "vscode",
+  "features": {
+    "docker-in-docker": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
