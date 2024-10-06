@@ -1,5 +1,5 @@
 {
   "name": "Compose Dev Environment",
   "dockerComposeFile": "../docker-compose.yaml",
-  "postCreateCommand": "docker-compose up -d",
+  "service": "backend"
 }
