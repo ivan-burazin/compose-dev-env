@@ -1,5 +1,0 @@
-{
-  "name": "Compose Dev Environment",
-  "dockerComposeFile": "../docker-compose.yaml",
-  "service": "backend"
-}
